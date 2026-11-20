@@ -1062,6 +1062,7 @@ GameObject:
   - component: {fileID: 513825694}
   - component: {fileID: 513825693}
   - component: {fileID: 513825696}
+  - component: {fileID: 513825697}
   m_Layer: 0
   m_Name: Blue
   m_TagString: Untagged
@@ -1273,6 +1274,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &513825697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513825691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585ec2ed3a92ec0418d8856c241924ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangeHandler
 --- !u!4 &659639143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2358132919304716929, guid: 82d054300e1081448bd7b2a3c5e476fb, type: 3}
